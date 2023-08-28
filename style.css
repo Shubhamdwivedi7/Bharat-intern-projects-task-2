@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+* {
+    margin: 0%;
+    font-family: Raleway;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: darkgrey;
+}
+/* ---------------------- CONTAINER-1 --------------------- */
+#container-1 {
+    width: 100%;
+    padding-bottom: 3rem;
+    margin-bottom: 10px;
+    height: fit-content;
+    background-image: url("netflix-background.jpg");
+    /* background: linear-gradient(black); */
+    background-position: center;   
+    /* opacity: .9; */
+}
+/* --------------- NAVBAR ------------------------- */
+.navbar {
+    width: 80%;
+    padding: 3% 7%;
+    margin: 0 auto;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+.brand img{
+    width: 9rem;
+    height: auto;
+
+}
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 10px solid ghostwhite; */
+    /* border-radius: .5rem; */
+
+}
+select {
+    padding: 3% 7%;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    border-radius: .29rem;
+    font-size: larger;
+    color: white;
+}
+
+option {
+    border-radius: .2rem;
+}
+.signin, .language {
+    width: 50%;
+}
+.language {
+    text-align: end;
+}
+.signin {
+    text-align: center;
+}
+.signin .btn {
+    height: auto;
+    padding: 4.5% 7%;
+    background-color: rgb(229,9,20);
+    border: 1px solid rgb(229,9,20);
+    border-radius: .2rem;
+    text-decoration: none;
+}
+.signin .btn a {
+    /* background-color: rgb(229,9,20); */
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 800;
+}
+/* ----------------------- navbar end ------------- */
+/* ------------------- body content ------------------- */
+
+.body {
+    margin: 15% auto 0 auto;
+    width: 75%;
+    color: aliceblue;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 1000;
+}
+
+.text {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.mail {
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+}
+.mail p {
+    margin: 1rem 0;
+}
+
+.mail input {
+    font-weight: 800;
+    height: 3.5rem;
+    width: 40%;
+    background-color: black;
+    padding: 1% 2%;
+    border: 2px solid grey;
+    border-radius: .25rem;
+    /* height: ;s */
+}
+
+.btn {
+    padding: 1% 2%;
+    height: 3.5rem;
+    font-weight: 800;
+    background-color: rgb(229,9,20);
+    border: 1px solid rgb(229,9,20);
+    border-radius: .25rem;
+    font-size: larger;
+    color: aliceblue;
+}
+
+/* --------------------- CONTAINER - 2 ------------------- */
+
+.container-2 {
+    margin-bottom: 10px;
+    padding: 15% 10%;
+   /* text-align: center; */
+   background-color: black;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+
+
+.container-2 .left-2 {
+    color: aliceblue;
+    display: inline-block;
+
+    /* align-items: center; */
+}
+
+.heading-2 {
+    font-size: 2.5rem;
+    font-weight: 1000;
+    margin: 3rem 0 2rem 0;
+}
+
+.right-2 img, .left-2{
+    height: 400px;
+    width: 500px;
+    
+}
+
+/* --------------------- container-3 ----------------------------- */
+.container-3 {
+    padding: 3rem 4rem;
+    color: aliceblue;
+    margin-bottom: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.left-3 ,.right-3 {
+    height: 400px;
+    width: 500px;
+    position: relative;
+}
+
+.mobile-image {
+    height: 400px;
+    width: 500px;
+}
+
+.box {
+    z-index: 2;
+    height: 120px;
+    width: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: .9rem;
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+
+}
+
+.box .box-image {
+    height: 90px;
+    width: 75px;
+}
+
+.title-name {
+    font-weight: 900;
+}
+.downloading {
+    font-weight: 700;
+    color: #0071eb;
+}
+
+.heading-3 {
+    padding: 3rem 0 2rem 0;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.text-3 {
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* ------------------------ .container-4 -------------------- */
+.container-4 {
+    padding: 3rem 4rem;
+    color: aliceblue;
+    margin-bottom: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-4, .right-4 {
+    height: 400px;
+    width: 500px;
+    position: relative;
+}
+.heading-4 {
+    padding: 2rem 0 2rem 0;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.text-4 {
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500; 
+}
+
+.netflix-tv {
+    height: 400px;
+    width: 500px;
+}
+
+/* --------------------- .container-5 --------------------- */
+.container-5 {
+    padding: 3rem 4rem;
+    color: aliceblue;
+    margin-bottom: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading-5 {
+    padding: 2rem 0 2rem 0;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.text-5 {
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500; 
+}
+
+/* ------------------------ .container-6 ----------------- */
+
+.container-6 {
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: 10px;
+
+
+}
+
+.heading-6 {
+    padding: 2rem 0 2rem 0;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.questions {
+    /* display: flex;
+    justify-content: center; */
+}
+.answer {
+    display: none;
+}
+
+.question {
+     width: 100%;
+     padding: 5px 5%;
+     /* background-color: darkgray; */
+}
+
+.q-1 {
+   background-color: darkgray;
+   width: 100%;
+}
+
+.q-btn:hover {
+    background-color: darkgray;
+}
+.q-btn {
+    padding: 2% 5%;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: rgb(45,45,45);
+    /* margin:0 auto 1rem auto ; */
+    border: 0px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 5rem;
+    width: 100%;
+}
+
+.footer {
+    padding: 3rem 0;
+}
+
+/* ------------------------ conatainer - 7 -------------------- */
+
+.container-7 {
+    background-color: black;
+    color: aliceblue;
+    padding: 3rem 4rem;
+
+}
+
+.container-7 .footer-links {
+    /* width: 70%; */
+    margin-top: 2rem;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.container-7 p {
+    padding-bottom: 1rem;
+}
+.container-7 p a{
+    /* width: 40%; */
+    /* display: block; */
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+section {
+    padding-right: 78%;
+}
+
+section p {
+    padding: 1rem 0;
+}
